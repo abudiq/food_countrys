@@ -1,0 +1,358 @@
+name: flutter_app25
+description: A new Flutter application.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  path_provider: ^2.0.1
+  sqflite: ^2.0.0+3
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/country.db
+    - assets/nophoto.jpg
+    - assets/iraq/1.jpg
+    - assets/iraq/2.jpg
+    - assets/iraq/3.jpg
+    - assets/iraq/4.jpg
+    - assets/iraq/5.jpg
+    - assets/iraq/6.jpg
+    - assets/iraq/7.jpg
+    - assets/iraq/8.jpg
+    - assets/iraq/9.jpg
+    - assets/iraq/10.jpg
+    - assets/iraq/11.jpg
+    - assets/iraq/12.jpg
+    - assets/iraq/13.jpg
+    - assets/iraq/14.jpg
+    - assets/iraq/15.jpg
+    - assets/iraq/16.jpg
+    - assets/iraq/17.jpg
+    - assets/iraq/18.jpg
+    - assets/iraq/19.jpg
+    - assets/iraq/20.jpg
+    - assets/iraq/21.jpg
+    - assets/iraq/22.jpg
+    - assets/iraq/23.jpg
+    - assets/iraq/24.jpg
+    - assets/iraq/25.jpg
+    - assets/usa/1.jpg
+    - assets/usa/2.jpg
+    - assets/usa/3.jpg
+    - assets/usa/4.jpg
+    - assets/usa/5.jpg
+    - assets/usa/6.jpg
+    - assets/usa/7.jpg
+    - assets/usa/8.jpg
+    - assets/usa/9.jpg
+    - assets/usa/10.jpg
+    - assets/usa/11.jpg
+    - assets/usa/12.jpg
+    - assets/usa/13.jpg
+    - assets/usa/14.jpg
+    - assets/usa/15.jpg
+    - assets/usa/16.jpg
+    - assets/usa/17.jpg
+    - assets/usa/18.jpg
+    - assets/usa/19.jpg
+    - assets/usa/20.jpg
+    - assets/usa/21.jpg
+    - assets/usa/22.jpg
+    - assets/usa/23.jpg
+    - assets/usa/24.jpg
+    - assets/usa/25.jpg
+    - assets/usa/26.jpg
+    - assets/usa/27.jpg
+    - assets/usa/28.jpg
+    - assets/usa/29.jpg
+    - assets/Turkey/1.jpg
+    - assets/Turkey/2.jpg
+    - assets/Turkey/3.jpg
+    - assets/Turkey/4.jpg
+    - assets/Turkey/5.jpg
+    - assets/Turkey/6.jpg
+    - assets/Turkey/7.jpg
+    - assets/Turkey/8.jpg
+    - assets/Turkey/9.jpg
+    - assets/Turkey/10.jpg
+    - assets/Turkey/11.jpg
+    - assets/Turkey/12.jpg
+    - assets/Turkey/13.jpg
+    - assets/Turkey/14.jpg
+    - assets/Turkey/15.jpg
+    - assets/Turkey/16.jpg
+    - assets/Turkey/17.jpg
+    - assets/Turkey/18.jpg
+    - assets/Turkey/19.jpg
+    - assets/Turkey/20.jpg
+    - assets/Turkey/21.jpg
+    - assets/Turkey/22.jpg
+    - assets/Turkey/23.jpg
+    - assets/Turkey/24.jpg
+    - assets/Turkey/25.jpg
+    - assets/Spain/1.jpg
+    - assets/Spain/2.jpg
+    - assets/Spain/3.jpg
+    - assets/Spain/4.jpg
+    - assets/Spain/5.jpg
+    - assets/Spain/6.jpg
+    - assets/Spain/7.jpg
+    - assets/Spain/8.jpg
+    - assets/Spain/9.jpg
+    - assets/Spain/10.jpg
+    - assets/Spain/11.jpg
+    - assets/Spain/12.jpg
+    - assets/Spain/13.jpg
+    - assets/Spain/14.jpg
+    - assets/Spain/15.jpg
+    - assets/Spain/16.jpg
+    - assets/Spain/17.jpg
+    - assets/Spain/18.jpg
+    - assets/Spain/19.jpg
+    - assets/Spain/20.jpg
+    - assets/Spain/21.jpg
+    - assets/Spain/22.jpg
+    - assets/Spain/23.jpg
+    - assets/Spain/24.jpg
+    - assets/Spain/25.jpg
+    - assets/Spain/26.jpg
+    - assets/Spain/27.jpg
+    - assets/Spain/28.jpg
+    - assets/Spain/29.jpg
+    - assets/Spain/30.jpg
+    - assets/Spain/31.jpg
+    - assets/Spain/32.jpg
+    - assets/Spain/33.jpg
+    - assets/Spain/34.jpg
+    - assets/Russia/1.jpg
+    - assets/Russia/2.jpg
+    - assets/Russia/3.jpg
+    - assets/Russia/4.jpg
+    - assets/Russia/5.jpg
+    - assets/Russia/6.jpg
+    - assets/Russia/7.jpg
+    - assets/Russia/8.jpg
+    - assets/Russia/9.jpg
+    - assets/Russia/10.jpg
+    - assets/Russia/11.jpg
+    - assets/Russia/12.jpg
+    - assets/Russia/13.jpg
+    - assets/Russia/14.jpg
+    - assets/Russia/15.jpg
+    - assets/Russia/16.jpg
+    - assets/Russia/17.jpg
+    - assets/Russia/18.jpg
+    - assets/Russia/19.jpg
+    - assets/Russia/20.jpg
+    - assets/Russia/21.jpg
+    - assets/Russia/22.jpg
+    - assets/Russia/23.jpg
+    - assets/Russia/24.jpg
+    - assets/Russia/25.jpg
+    - assets/Russia/26.jpg
+    - assets/Russia/27.jpg
+    - assets/Russia/28.jpg
+    - assets/Russia/29.jpg
+    - assets/Russia/30.jpg
+    - assets/Russia/31.jpg
+    - assets/Russia/32.jpg
+    - assets/Russia/33.jpg
+    - assets/Russia/34.jpg
+    - assets/Russia/35.jpg
+    - assets/Russia/36.jpg
+    - assets/Russia/37.jpg
+    - assets/Russia/38.jpg
+    - assets/Russia/39.jpg
+    - assets/Russia/40.jpg
+    - assets/Germany/1.jpg
+    - assets/Germany/2.jpg
+    - assets/Germany/3.jpg
+    - assets/Germany/4.jpg
+    - assets/Germany/5.jpg
+    - assets/Germany/6.jpg
+    - assets/Germany/7.jpg
+    - assets/Germany/8.jpg
+    - assets/Germany/9.JPG
+    - assets/Germany/10.jpg
+    - assets/Germany/11.jpg
+    - assets/Germany/12.jpg
+    - assets/Germany/13.jpg
+    - assets/Germany/14.jpg
+    - assets/Germany/15.jpg
+    - assets/Germany/16.jpg
+    - assets/Germany/17.jpg
+    - assets/Germany/18.jpg
+    - assets/Germany/19.JPG
+    - assets/Germany/20.jpg
+    - assets/Germany/21.jpg
+    - assets/Germany/22.jpg
+    - assets/Germany/23.jpg
+    - assets/France/1.jpg
+    - assets/France/2.jpg
+    - assets/France/3.jpg
+    - assets/France/4.jpg
+    - assets/France/5.jpg
+    - assets/France/6.jpg
+    - assets/France/7.jpg
+    - assets/France/8.jpg
+    - assets/France/9.jpg
+    - assets/France/10.jpg
+    - assets/France/11.jpg
+    - assets/France/12.jpg
+    - assets/France/13.jpg
+    - assets/France/14.jpg
+    - assets/France/15.jpg
+    - assets/France/16.jpg
+    - assets/France/17.jpg
+    - assets/France/18.jpg
+    - assets/France/19.jpg
+    - assets/France/20.jpg
+    - assets/France/21.jpg
+    - assets/France/22.jpg
+    - assets/France/23.jpg
+    - assets/France/24.jpg
+    - assets/France/25.jpg
+    - assets/France/26.jpg
+    - assets/France/27.jpg
+    - assets/France/28.jpg
+    - assets/France/29.jpg
+    - assets/France/30.jpg
+    - assets/France/31.jpg
+    - assets/China/1.jpg
+    - assets/China/2.jpg
+    - assets/China/3.jpg
+    - assets/China/4.jpg
+    - assets/China/5.jpg
+    - assets/China/6.jpg
+    - assets/China/7.jpg
+    - assets/China/8.jpg
+    - assets/China/9.JPG
+    - assets/China/10.jpg
+    - assets/China/11.jpg
+    - assets/China/12.jpg
+    - assets/China/13.jpg
+    - assets/China/14.jpg
+    - assets/China/15.jpg
+    - assets/China/16.jpg
+    - assets/China/17.jpg
+    - assets/China/18.jpg
+    - assets/China/19.jpg
+    - assets/China/20.jpg
+    - assets/China/21.jpg
+    - assets/China/22.jpg
+    - assets/China/23.jpg
+    - assets/China/24.jpg
+    - assets/China/25.jpg
+    - assets/China/26.jpg
+    - assets/China/27.jpg
+    - assets/Azerbaijani/1.jpg
+    - assets/Azerbaijani/2.jpg
+    - assets/Azerbaijani/3.jpg
+    - assets/Azerbaijani/4.jpg
+    - assets/Azerbaijani/5.jpg
+    - assets/Azerbaijani/6.jpg
+    - assets/Azerbaijani/7.jpg
+    - assets/Azerbaijani/8.jpg
+    - assets/Azerbaijani/9.jpg
+    - assets/Azerbaijani/10.jpg
+    - assets/Azerbaijani/11.jpg
+    - assets/Azerbaijani/12.jpg
+    - assets/Azerbaijani/13.jpg
+    - assets/Azerbaijani/14.jpg
+    - assets/Azerbaijani/15.jpg
+    - assets/Azerbaijani/16.jpg
+    - assets/Azerbaijani/17.jpg
+    - assets/Azerbaijani/18.jpg
+    - assets/Azerbaijani/19.jpg
+    - assets/Azerbaijani/20.jpg
+    - assets/Azerbaijani/21.jpg
+    - assets/Azerbaijani/22.jpg
+    - assets/Azerbaijani/23.jpg
+    - assets/Britain/1.jpg
+    - assets/Britain/2.jpg
+    - assets/Britain/3.jpg
+    - assets/Britain/4.jpg
+    - assets/Britain/5.jpg
+    - assets/Britain/6.jpg
+    - assets/Britain/7.jpg
+    - assets/Britain/8.jpg
+    - assets/Britain/9.jpg
+    - assets/Britain/10.jpg
+    - assets/Britain/11.jpg
+    - assets/Britain/12.jpg
+    - assets/Britain/13.jpg
+    - assets/Britain/14.jpg
+    - assets/Britain/15.jpg
+    - assets/Britain/16.jpg
+    - assets/Britain/17.jpg
+    - assets/Britain/18.jpg
+    - assets/Britain/19.jpg
+    - assets/Britain/20.jpg
+    - assets/Britain/21.jpg
+
+
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
